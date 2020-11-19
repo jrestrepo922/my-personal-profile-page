@@ -55,26 +55,26 @@ a:hover {
   color: white
 }
 
-header {
+header#home {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
+header#home {
   line-height: 1.5;
 }
-header .profile-image {
+header#home .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 10px solid gray;
+  transition: all 1s;
 }
-header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+header#home .profile-image:hover {
+  transform: scale(1.2) rotate(10deg);
 }
 .tag {
   background-color: #efefef;
@@ -205,3 +205,66 @@ a.social:hover {
 
 }
 
+/* Experience */
+
+header#experience {
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+  padding-top: 100px;
+}
+header#experience{
+  line-height: 1.5;
+}
+
+header#experience h1{
+  padding-top: 80px;
+}
+
+main.wrapper{
+  background-color: rgb(231, 229, 229);
+  padding-bottom: 50px;
+}
+
+.projects{
+  width: 80%;
+  margin: 40px auto;
+  background-color: white ;
+  display: flex;
+  
+}
+
+.project-image{
+  align-content: center;
+  margin: 20px 40px;
+  
+}
+
+/* Work History */
+ 
+header#work-history {
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+  padding-top: 200px;
+}
+
+
+
+
+.work-container{
+  width: 80%;
+  margin: 40px auto;
+  background-color: white ;
+  display: flex;
+  
+}
+
+.job-duties{
+  margin: 40px 80px; 
+}
+
+.general-details{
+  width: 1000px;
+  padding: 50px 0px;
+}
